@@ -178,7 +178,7 @@ DROP TABLE #PairConfidence;
 
 ---
 
-## Insights:
+## Insights from the table SQL code provided (Association Rule Result):
 1. High Lift Values:
 - Product Pair: Women's Tights, S & Women's Tights, L (Lift = 66.78)
 This is a very strong relationship with a lift value of over 66, meaning customers who buy Women’s Tights, S, are highly likely to buy Women’s Tights, L as well.
