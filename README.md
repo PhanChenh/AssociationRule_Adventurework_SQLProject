@@ -26,13 +26,16 @@ Components of Association Rules:
 - Consequent (RHS - Right-Hand Side): This is the item or set of items on the right-hand side of the rule. In the rule "A → B", B is the consequent.
 - Support: The support of a rule represents the frequency or proportion of transactions that contain both the antecedent (A) and consequent (B).
 - Mathematically: Support(A→B) = Frequency(A,B) / N(total distinct orders)
+
 => Interpretation: This tells you how often the rule appears in the dataset. For instance, a rule with high support means the combination of items (A and B) happens frequently across transactions.
 - Confidence: The confidence of a rule measures the likelihood that the consequent (B) will occur when the antecedent (A) occurs.
 - Mathematically: Confidence(A→B) = frequency(A,B)/ frequency(A)
+
 => Interpretation: This tells you how often B appears when A is purchased. A confidence of 0.7 means that when A is purchased, 70% of the time B is also purchased.
 - Lift: The lift of a rule compares the observed frequency of the item pair occurring together to the expected frequency if they were independent. A lift greater than 1 indicates that the items are positively correlated and occur together more often than expected.
 - Mathematically: Lift(A→B) = Support(A→B) / (Support(A) × Support(B)
- => Interpretation: If Lift > 1, the products are likely to be purchased together more often than by chance. If Lift < 1, they are likely to be bought independently.
+
+=> Interpretation: If Lift > 1, the products are likely to be purchased together more often than by chance. If Lift < 1, they are likely to be bought independently.
 
 ## Example of Association Rule:
 
