@@ -8,6 +8,7 @@ Association rules are a fundamental concept in data mining, often used to discov
 
 ## Objectives:
 
+The objective of this project is to clean and prepare the AdventureWorks2022 dataset for association rule mining, identify frequently purchased item combinations, calculate key association metrics such as support, confidence, and lift to assess the strength of these relationships, and interpret the results to generate actionable insights that can inform product recommendations, cross-selling strategies, and promotional activities.
 
 ## Project Structure:
 1. Data Preparation – Ensure the dataset is formatted for association rule mining.
