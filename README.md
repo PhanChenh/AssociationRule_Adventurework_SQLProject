@@ -176,4 +176,51 @@ DROP TABLE #PairSupport;
 DROP TABLE #PairConfidence;
 ```
 
+---
 
+## Insights:
+1. High Lift Values:
+- Product Pair: Women's Tights, S & Women's Tights, L (Lift = 66.78)
+This is a very strong relationship with a lift value of over 66, meaning customers who buy Women’s Tights, S, are highly likely to buy Women’s Tights, L as well.
+- Recommendation: Consider offering a discount or a promotion for customers who buy both sizes, potentially encouraging them to purchase both items simultaneously.
+
+2. Frequent Product Bundles:
+- Product Pair: Road-650 Red, 60 & Road-650 Black, 52 (Pair Support = 0.0163)
+The pair is frequently bought together, suggesting a strong relationship between these two products.
+- Recommendation: If one product in this pair is selling well, ensure the other is heavily promoted or made available in larger quantities.
+
+3. High Confidence but Moderate Lift:
+- Product Pair: Road-650 Red, 52 & Road-650 Black, 58 (Confidence = 0.7409, Lift = 50.68)
+The confidence is high (74%), but the lift value is moderate compared to some other pairs. This indicates that while customers buying the red road bike are very likely to buy the black road bike (58), the relationship isn’t as overwhelmingly strong as others in terms of unexpected pairings.
+- Recommendation: This could be a good product combination to feature together in marketing campaigns, but it might not justify heavy discounts or bundling like the other pairs with higher lift.
+
+4. Lower Confidence & Lift, but High Pair Support:
+- Product Pair: Touring Tire Tube & Touring Tire (Pair Support = 0.0473, Confidence = 0.543, Lift = 18.27)
+While this pair has a moderate confidence and lift, it has a high pair support value (0.0473), meaning it is a frequently occurring combination.
+- Recommendation: This pair might be ideal for upselling opportunities during checkout or as add-on products in a dedicated "Complete Your Purchase" section on the website.
+
+5. Bundles with Lower Sales Potential:
+- Product Pair: Classic Vest, S & Bike Wash - Dissolver (Lift = 12.65)
+This pair has a lower lift compared to other product bundles, suggesting customers don't tend to buy these two items together often.
+- Recommendation: These items may benefit from separate promotions or be featured in different product categories, as their relationship isn't strong enough to justify bundling at this time.
+
+6. Low Support & High Confidence:
+- Product Pair: Classic Vest, M & Water Bottle - 30 oz. (Confidence = 0.672, Lift = 4.51)
+Although this pair has relatively high confidence, the lift value is much lower, meaning the products aren't likely to be purchased together at a high rate beyond the expected norm.
+- Recommendation: If marketing or promotions are planned for these items, they should be positioned as complementary items rather than bundles, perhaps focusing on their use cases in outdoor activities.
+
+## Recommendations:
+1. Create Targeted Marketing Campaigns for High-Lift Pairs:
+- For items like Women’s Tights (S and L), which have an extremely high lift, you could bundle them together with targeted ads or cross-sell offers to increase customer purchases.
+
+2. Offer Promotions or Discounts for Frequent Pair Purchases:
+- For items that have high pair support and moderate confidence (e.g., Road-650 Red and Road-650 Black), use promotions to encourage customers to buy the full set. This could be a "buy one, get one discount" or offering a slight discount for purchasing both items together.
+
+3. Highlight Complementary Products:
+- Products like the Touring Tire Tube and Touring Tire can be marketed in "complete the set" offers or upselling at checkout. This works well in scenarios where customers may forget to purchase an accessory or related product.
+
+4. Reevaluate Bundling for Low Lift Pairs:
+- Items with lower lift (e.g., Classic Vest, M & Bike Wash) should not be aggressively bundled but could be marketed as separate complementary items or placed in categories where cross-promotion makes sense.
+
+5. Optimize Product Placement Based on Buying Patterns:
+- Analyze customer buying behavior further to identify optimal placement on e-commerce sites—products with higher confidence might benefit from being placed near each other on product pages.
