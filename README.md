@@ -9,7 +9,7 @@
 - [Key Findings](#key-findings)
 - [How to Use](#how-to-use)
 - [Technologies Used](#technologies-used)
-- [Results](#results--visualizations)
+- [Results](#results)
 - [Recommendation](#recommendation)
 - [Contact](#contact)
 
