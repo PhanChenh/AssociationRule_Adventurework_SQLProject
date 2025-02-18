@@ -7,7 +7,7 @@
 - [Analysis Approach](#analysis-approach)
 - [Association Rule Metrics](#Association-Rule-Metrics)
 - [Key Findings](#key-findings)
-- [How to Use](#how-to-use)
+- [How to run code](#how-to-run-code)
 - [Technologies Used](#technologies-used)
 - [Results](#results)
 - [Recommendation](#recommendation)
@@ -77,7 +77,7 @@ High Support, Moderate Lift
     + Support = 0.0473, Lift = 18.27.
     + Recommendation: Upsell as add-ons during checkout.
 
-## How to use
+## How to run code
 1. Restore database in SSMS as guided in Mirosoft Learn [Restore to SQL Server](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 2. Using SQL Server Management Studio (SSMS) to execute SQL queries
 
