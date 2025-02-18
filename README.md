@@ -93,6 +93,9 @@ High Support, Moderate Lift
 
 These conditions ensure that the association rules represent strong, reliable, and frequent product pairings. The results are valuable as they highlight associations that are both statistically significant (with high confidence) and frequent enough (with sufficient support) to be practical for business decisions.
 
+![associationRule](https://github.com/user-attachments/assets/67f43eba-81ef-4284-9df6-f3c1f7cd6322)
+Figure 1: Sample Association Rule Mining Results
+
 ## Recommendation
 
 1. Create Targeted Marketing Campaigns for High-Lift Pairs:
