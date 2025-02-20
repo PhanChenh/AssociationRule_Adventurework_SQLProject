@@ -116,6 +116,6 @@ Figure 1: Sample Association Rule Mining Results
 
 ## Contact
 
-📧 Email: pearriperri@gmail.com
+📧 Email: phanchenh99@gmail.com
 
 🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
